@@ -16,7 +16,7 @@ html, body {
 body {
     font-family: "Nunito", sans-serif;
     text-align: center;
-    background: rgba(235, 235, 235, 0.9);
+    background: #2ec4b6;
 }
 
 header {
@@ -30,13 +30,13 @@ header {
 
 header h1 {
     font-size: 1.25em;
-    color: rgba(50, 50, 50, 0.9);
+    color: #161722;
     margin-top: 35px;
 }
 
 .search-input {
     padding: 0.4rem 1rem;
-    border: 1px solid rgba(200, 200, 200, 0.9);
+    border: 1px solid #c8c8c8e6;
     border-radius: 0.25rem 0 0 0.25rem ;
     max-width: 20rem;
     transition: .4s ease-out;
@@ -87,9 +87,9 @@ header h1 {
     max-width: 360px;
     margin: 10px 10px 20px;
     padding: 10px;
-    background: rgba(245, 245, 245, 0.9);
+    background: #ffffffe6;
     border-radius: 0.25em;
-    border: 1px solid rgba(50, 50, 50, 0.3);
+    border: 10px solid #cbf3f0;
     transition: .4s ease-out;
     overflow: hidden;
 }
@@ -119,7 +119,6 @@ header h1 {
     text-transform: capitalize;
 }
 
-
 /* ===================================== 
    Modal
 ======================================== */
@@ -142,7 +141,7 @@ header h1 {
     padding-bottom: 15px;
     background: rgba(255, 255, 255, 1);
     border-radius: 0.25em;
-    border: 1px solid rgba(100, 100, 100, 0.3);
+    border: 10px solid #cbf3f0;
     transition: .4s ease-out;
 }
 
@@ -151,11 +150,11 @@ header h1 {
     top: 15px;
     right: 15px;
     cursor: pointer;
-    color: rgba(255, 255, 255, 0.9);
-    background: rgba(0, 0, 0, 0.8);
+    color: #ffffffe6;
+    background: #2ec4b6;
     outline: none;
     border-radius: 0.25em;
-    border: 1px solid rgba(50, 50, 50, 0.3);
+    border: 1px solid #2ec4b6;
 }
 
 .modal-img {
@@ -201,8 +200,9 @@ header h1 {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.9);
     padding: 0.75em 1.5em;
-    background: rgba(0, 0, 0, 0.8);
+    background: #FF9F1C;
     border-radius: 0.35em;
+    border: 2px solid #ffbf69;
     transition: .4s ease-out;
     outline: none;
   }
@@ -249,7 +249,7 @@ header h1 {
 
     .card:hover {
         background: rgba(255, 255, 255, 1);
-        border: 1px solid rgba(50, 50, 50, 0.9);
+        border: 5px solid #FFBF69;
     }
 
     .card:hover .card-text {
