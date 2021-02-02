@@ -150,7 +150,7 @@ const searchSubmit = document.getElementById('search-submit');
 // is the first or last employee, the prev and next buttons respectively are disabled to prevent
 // console errors.
 document.addEventListener('click', (e) => {
-  if (e.target === modalClose) {
+  if (e.target === modalClose || e.target.nodeName === 'STRONG') {
     body.removeChild(modalContainer[0]);
   } else if (e.target === modalNext) {
       if(index < users.length-1) {
@@ -172,7 +172,8 @@ document.addEventListener('click', (e) => {
 });
 
 // This event listener allows clicking the search button to call the performSearch() function.
-searchSubmit.addEventListener('click', () => {
+searchSubmit.addEventListener('click', (e) => {
+  e.preventDefault();
   searchReturn = performSearch(searchBox.value,users);
 })
 
